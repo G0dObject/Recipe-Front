@@ -1,0 +1,36 @@
+code {
+  font-family: Poppins;
+}
+$primary: #129575;
+.flex-auto {
+  flex: auto;
+}
+
+body,
+#root {
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.form-label,
+.forgot-password,
+.nav-link {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Lato", Arial, sans-serif;
+  color: var(--colour-styles-neutral-colour-black, #000);
+}
+.ml-auto {
+  margin-left: auto;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
